@@ -4,7 +4,8 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'reviewsDB',
-  insecureAuth: true
+  insecureAuth: true,
+  password: 'password'
 });
 
 // create the functions
