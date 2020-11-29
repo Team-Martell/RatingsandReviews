@@ -8,7 +8,7 @@ const StarScore = (props) => {
       <div class={styles.stars}>{props.starRating} stars</div>
       <div class="bar">
         {/* how am i going to reference the props within the inline styling? */}
-        <div class="filled"></div>
+        <div class="filled" style={'height: 20px;width:30%'}></div>
       </div>
       <div class='star-percentage'>35%</div>
     </div>
